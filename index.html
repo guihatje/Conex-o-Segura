@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Somália — entre o Chifre da África e a disputa pelo poder</title>
+  <meta name="description" content="Como território, clãs e interesses externos moldam a instabilidade na Somália." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#localizacao">Pular para o conteúdo</a>
+
+  <!-- Rota lateral: progresso de leitura como uma travessia -->
+  <nav class="route-nav" aria-label="Seções">
+    <div class="route-nav__line"><span class="route-nav__fill"></span><span class="route-nav__ship" aria-hidden="true"></span></div>
+    <ol>
+      <li><a href="#localizacao" data-label="Localização"></a></li>
+      <li><a href="#historia" data-label="História"></a></li>
+      <li><a href="#causas" data-label="Causas"></a></li>
+      <li><a href="#al-shabaab" data-label="Al-Shabaab"></a></li>
+      <li><a href="#poder" data-label="Distribuição do poder"></a></li>
+      <li><a href="#atores" data-label="Atores e interesses"></a></li>
+      <li><a href="#recursos" data-label="Recursos"></a></li>
+      <li><a href="#influencia" data-label="Influência estrangeira"></a></li>
+      <li><a href="#populacao" data-label="População civil"></a></li>
+      <li><a href="#onu" data-label="Atuação da ONU"></a></li>
+      <li><a href="#paz" data-label="Caminhos para a paz"></a></li>
+      <li><a href="#tensoes" data-label="Mapa de tensões"></a></li>
+      <li><a href="#questoes" data-label="Questões"></a></li>
+    </ol>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="topo">
+    <canvas class="hero__sea" aria-hidden="true"></canvas>
+    <div class="hero__inner">
+      <p class="hero__kicker">Chifre da África, geopolítica</p>
+      <h1 class="hero__title" aria-label="Somália">
+        <span aria-hidden="true">S</span><span aria-hidden="true">o</span><span aria-hidden="true">m</span><span aria-hidden="true">á</span><span aria-hidden="true">l</span><span aria-hidden="true">i</span><span aria-hidden="true">a</span>
+      </h1>
+      <p class="hero__lede">Como território, clãs e interesses externos moldam a instabilidade.</p>
+      <a class="hero__cue" href="#localizacao">Começar a travessia</a>
+    </div>
+    <svg class="wave wave--bottom" viewBox="0 0 1440 120" preserveAspectRatio="none" aria-hidden="true">
+      <path class="wave__a" d="M0,60 C240,110 480,10 720,60 C960,110 1200,10 1440,60 L1440,120 L0,120 Z" />
+      <path class="wave__b" d="M0,80 C240,40 480,120 720,80 C960,40 1200,120 1440,80 L1440,120 L0,120 Z" />
+    </svg>
+  </header>
+
+  <main>
+    <!-- 01 LOCALIZAÇÃO -->
+    <section class="sec sec--sand location" id="localizacao" aria-labelledby="loc-h">
+      <div class="location__text">
+        <h2 id="loc-h" class="display">No encontro de mares e corredores</h2>
+        <p class="lead">A Somália ocupa a ponta oriental do Chifre da África: uma longa costa voltada para rotas entre o Índico, o Golfo de Áden e o Mar Vermelho.</p>
+        <div class="door">
+          <h3>A metáfora da porta</h3>
+          <p>Bab-el-Mandeb é o estreito de passagem para o Mar Vermelho; ao norte, a rota segue pelo Canal de Suez.</p>
+          <ol class="route-steps" aria-label="Rota marítima">
+            <li data-stop="0">Oceano Índico</li>
+            <li data-stop="1">Golfo de Áden</li>
+            <li data-stop="2">Bab-el-Mandeb</li>
+            <li data-stop="3">Mar Vermelho</li>
+            <li data-stop="4">Canal de Suez</li>
+          </ol>
+        </div>
+      </div>
+      <figure class="location__map">
+        <div class="map" data-map="route" role="img" aria-label="Mapa esquemático do Chifre da África com a rota marítima do Oceano Índico até Suez, passando pelo Golfo de Áden e por Bab-el-Mandeb."></div>
+        <figcaption>Mapa esquemático. Role a página para navegar a rota.</figcaption>
+      </figure>
+    </section>
+
+    <!-- 02 HISTÓRIA -->
+    <section class="sec sec--deep history" id="historia" aria-labelledby="hist-h">
+      <div class="history__sticky">
+        <div class="history__head">
+          <h2 id="hist-h" class="display">Uma história de união, ruptura e reconstrução</h2>
+          <p class="history__hint">Role para avançar no tempo</p>
+        </div>
+        <div class="history__viewport">
+          <ol class="history__track">
+            <li class="era"><span class="era__year">Colonização</span><p>Protetorado britânico ao norte e colônia italiana ao sul.</p></li>
+            <li class="era"><span class="era__year">1960</span><p>Independência e união das duas Somálias.</p></li>
+            <li class="era"><span class="era__year">1969–1991</span><p>Regime de Siad Barre.</p></li>
+            <li class="era"><span class="era__year">1977–78</span><p>Guerra de Ogaden com a Etiópia.</p></li>
+            <li class="era era--break"><span class="era__year">1991</span><p>Colapso do Estado e guerra civil.</p></li>
+            <li class="era"><span class="era__year">1992–1995</span><p>Intervenções da ONU: UNOSOM I e II.</p></li>
+            <li class="era"><span class="era__year">2004</span><p>Governo Federal de Transição.</p></li>
+            <li class="era"><span class="era__year">2006</span><p>União dos Tribunais Islâmicos; sua ala radical jovem dá origem ao Al-Shabaab.</p></li>
+            <li class="era"><span class="era__year">2012</span><p>Governo Federal da Somália.</p></li>
+          </ol>
+          <div class="history__rail" aria-hidden="true"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 CAUSAS -->
+    <section class="sec sec--sand causes" id="causas" aria-labelledby="causas-h">
+      <h2 id="causas-h" class="display">A instabilidade não tem uma causa única</h2>
+      <p class="lead">Fragilidade institucional, pressão econômica e disputas territoriais se reforçam.</p>
+      <div class="causes__grid">
+        <article class="cause" style="--blob: var(--current)">
+          <div class="cause__blob" aria-hidden="true"></div>
+          <h3>Políticas</h3>
+          <ul>
+            <li>Estado central fraco</li>
+            <li>Clãs como base de poder</li>
+            <li>Sem monopólio da violência</li>
+            <li>Disputas por poder regional</li>
+          </ul>
+        </article>
+        <article class="cause" style="--blob: var(--saffron)">
+          <div class="cause__blob" aria-hidden="true"></div>
+          <h3>Econômicas</h3>
+          <ul>
+            <li>Pobreza e secas recorrentes</li>
+            <li>Pecuária e remessas em destaque</li>
+            <li>Baixa capacidade de tributação</li>
+          </ul>
+        </article>
+        <article class="cause" style="--blob: var(--sky)">
+          <div class="cause__blob" aria-hidden="true"></div>
+          <h3>Territoriais</h3>
+          <ul>
+            <li>Somalilândia: autodeclarada independente em 1991</li>
+            <li>Puntlândia: autônoma desde 1998</li>
+            <li>Disputa por Sool, Sanaag e Cayn</li>
+          </ul>
+        </article>
+      </div>
+      <p class="loop">
+        <span>Instituições frágeis</span>
+        <svg viewBox="0 0 120 40" aria-label="reforçam e são reforçadas por" role="img"><path d="M6 14 H114 M104 6 L114 14 L104 22" /><path d="M114 28 H6 M16 20 L6 28 L16 36" /></svg>
+        <span>disputas por recursos e autoridade</span>
+      </p>
+    </section>
+
+    <!-- 04 AL-SHABAAB -->
+    <section class="sec sec--deep shabaab" id="al-shabaab" aria-labelledby="shab-h">
+      <h2 id="shab-h" class="display">Um ator armado que também disputa governança</h2>
+      <p class="lead">A organização combina violência, arrecadação e uma oferta local de ordem.</p>
+      <div class="shabaab__grid">
+        <dl class="facts">
+          <div><dt>Origem</dt><dd>Ala radical jovem da União dos Tribunais Islâmicos; emerge a partir de 2006.</dd></div>
+          <div><dt>Ideologia e aliança</dt><dd>Jihadista salafista; juramento de aliança à Al-Qaeda em 2012.</dd></div>
+          <div><dt>Atuação</dt><dd>Controle em áreas do centro-sul; atentados e ataques a hotéis e bases.</dd></div>
+          <div><dt>Recursos e recrutamento</dt><dd>“Impostos”, zakat forçado e receita estimada; há recrutamento forçado de crianças.</dd></div>
+        </dl>
+        <div class="paradox">
+          <h3>O paradoxo</h3>
+          <p class="paradox__intro">Arraste para ver os dois lados do mesmo controle territorial.</p>
+          <div class="paradox__stage" style="--split: 50%">
+            <div class="paradox__side paradox__side--order"><p>Em áreas sob seu controle, oferece <strong>justiça rápida e segurança local</strong></p></div>
+            <div class="paradox__side paradox__side--force"><p>enquanto impõe <strong>coerção e violência</strong>.</p></div>
+            <span class="paradox__handle" aria-hidden="true"></span>
+          </div>
+          <label class="sr-only" for="paradox-range">Equilíbrio entre ordem oferecida e coerção</label>
+          <input id="paradox-range" class="paradox__range" type="range" min="8" max="92" value="50" />
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 DISTRIBUIÇÃO DO PODER -->
+    <section class="sec sec--sand power" id="poder" aria-labelledby="poder-h">
+      <h2 id="poder-h" class="display">Nenhum centro controla todas as peças</h2>
+      <p class="lead">Toque em cada polo para ver o que ele representa.</p>
+      <div class="power__wrap">
+        <svg class="power__web" viewBox="0 0 800 560" aria-hidden="true"></svg>
+        <div class="power__nodes"></div>
+        <aside class="power__detail" aria-live="polite">
+          <h3 class="power__detail-title">Governo Federal</h3>
+          <p class="power__detail-text">Sediado em Mogadíscio: autoridade nacional e relações externas, mas sem controle pleno do território.</p>
+        </aside>
+      </div>
+      <div class="formula">
+        <div class="formula__num" aria-hidden="true">4.5</div>
+        <div>
+          <h3>Sistema 4.5</h3>
+          <p>Cotas parlamentares distribuem representação entre clãs: os quatro grandes recebem uma cota inteira cada, e os grupos menores, meia cota somada. O modelo amplia a inclusão, mas também institucionaliza divisões e barganhas por identidade.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 ATORES -->
+    <section class="sec sec--current actors" id="atores" aria-labelledby="atores-h">
+      <h2 id="atores-h" class="display">Uma rede de alianças, disputas e influência</h2>
+      <div class="actors__cols">
+        <div>
+          <h3 class="actors__ring">Dentro da Somália</h3>
+          <ul class="actor-list">
+            <li><b>Governo Federal</b><span>Autoridade nacional e relações externas.</span></li>
+            <li><b>Estados regionais</b><span>Autonomia, recursos e segurança local.</span></li>
+            <li><b>Al-Shabaab</b><span>Controle, coerção e arrecadação.</span></li>
+            <li><b>Clãs e empresários</b><span>Representação, redes econômicas e influência.</span></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="actors__ring actors__ring--outer">Ao redor e além</h3>
+          <ul class="actor-list">
+            <li><b>Turquia</b><span>Base em Mogadíscio, treinamento e laços econômicos; principal aliado militar.</span></li>
+            <li><b>Etiópia e Quênia</b><span>Segurança; Ogaden e disputa de acesso ao mar; Linda Nchi (2011) e AMISOM.</span></li>
+            <li><b>EUA e Emirados Árabes</b><span>Ataques aéreos e drones; portos de Berbera e Bosaso.</span></li>
+            <li><b>Egito, UE e Reino Unido</b><span>Tensão da GERD e alinhamento com Mogadíscio; financiamento.</span></li>
+            <li><b>Arábia Saudita, Catar e China</b><span>Influência religiosa e financeira; pesca e infraestrutura.</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="memo" aria-label="Destaque">
+        <div class="memo__track">
+          <span>Memorando Etiópia–Somalilândia, 2024: disputa sobre acesso ao mar e reconhecimento político.</span>
+          <span aria-hidden="true">Memorando Etiópia–Somalilândia, 2024: disputa sobre acesso ao mar e reconhecimento político.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 07 RECURSOS -->
+    <section class="sec sec--sand resources" id="recursos" aria-labelledby="rec-h">
+      <h2 id="rec-h" class="display">A riqueza mineral é limitada; a posição pesa</h2>
+      <div class="scale" aria-hidden="true">
+        <svg viewBox="0 0 600 300">
+          <g class="scale__base"><path d="M300 290 L270 290 L300 120 L330 290 Z" /><circle cx="300" cy="110" r="10" /></g>
+          <g class="scale__beam">
+            <line x1="90" y1="110" x2="510" y2="110" />
+            <g class="scale__pan scale__pan--l"><line x1="90" y1="110" x2="60" y2="190" /><line x1="90" y1="110" x2="120" y2="190" /><path d="M40 190 Q90 230 140 190 Z" /><text x="90" y="250">minerais</text></g>
+            <g class="scale__pan scale__pan--r"><line x1="510" y1="110" x2="480" y2="190" /><line x1="510" y1="110" x2="540" y2="190" /><path d="M460 190 Q510 230 560 190 Z" /><text x="510" y="250">posição</text></g>
+          </g>
+        </svg>
+      </div>
+      <div class="resources__cols">
+        <div class="res-side">
+          <h3>Reservas modestas e pouco exploradas</h3>
+          <ul class="chips">
+            <li>Urânio</li><li>Ferro</li><li>Estanho</li><li>Gipsita</li><li>Bauxita</li><li>Cobre</li><li>Sal</li><li>Gás natural</li>
+          </ul>
+        </div>
+        <div class="res-side">
+          <h3>O que realmente importa</h3>
+          <ul class="matters">
+            <li>Posição marítima e pesca, inclusive pesca ilegal por frotas estrangeiras.</li>
+            <li>Pecuária: grande exportador regional de camelos e ovinos.</li>
+            <li>Banana e açúcar no sul.</li>
+            <li>Remessas da diáspora acima de <strong class="count" data-to="1" data-prefix="US$ " data-suffix=" bilhão/ano">US$ 1 bilhão/ano</strong>.</li>
+            <li>Carvão vegetal: exportação proibida pela ONU.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 08 INFLUÊNCIA ESTRANGEIRA -->
+    <section class="sec sec--deep influence" id="influencia" aria-labelledby="inf-h">
+      <div class="influence__text">
+        <h2 id="inf-h" class="display">A geopolítica chega por mar</h2>
+        <p class="lead">A competição no Mar Vermelho e no Golfo de Áden transforma a Somália em tabuleiro estratégico.</p>
+        <div class="influence__tabs" role="tablist" aria-label="Fatores de influência">
+          <button role="tab" aria-selected="true" data-focus="ports">Portos e bases</button>
+          <button role="tab" aria-selected="false" data-focus="eth">Etiópia–Egito</button>
+          <button role="tab" aria-selected="false" data-focus="tur">Turquia</button>
+          <button role="tab" aria-selected="false" data-focus="risk">Risco</button>
+        </div>
+        <div class="influence__panel" role="tabpanel" aria-live="polite">
+          <p data-panel="ports">Competição por presença e acesso estratégico em Berbera, Bosaso e Mogadíscio.</p>
+          <p data-panel="eth" hidden>Disputa regional, a barragem GERD no Nilo e a busca etíope por acesso ao mar.</p>
+          <p data-panel="tur" hidden>Principal aliado militar do Governo Federal, com base em Mogadíscio.</p>
+          <p data-panel="risk" hidden>Soberania fragmentada entre autoridades e interesses concorrentes.</p>
+        </div>
+      </div>
+      <figure class="influence__map">
+        <div class="map map--dark" data-map="ports" role="img" aria-label="Mapa esquemático com os portos de Berbera, Bosaso e Mogadíscio e a rota entre o Mar Vermelho e o Oceano Índico."></div>
+        <figcaption>Rota do Mar Vermelho ao Oceano Índico.</figcaption>
+      </figure>
+    </section>
+
+    <!-- 09 POPULAÇÃO CIVIL -->
+    <section class="sec sec--sand people" id="populacao" aria-labelledby="pop-h">
+      <h2 id="pop-h" class="display">A crise não é abstrata</h2>
+      <p class="lead">Secas e enchentes extremas pressionam famílias, serviços e meios de vida.</p>
+      <div class="people__grid">
+        <div class="bignum">
+          <span class="bignum__n"><span class="count" data-to="3">3</span>–<span class="count" data-to="4">4</span> milhões</span>
+          <span class="bignum__l">de pessoas em situação de deslocamento interno</span>
+        </div>
+        <ul class="people__facts">
+          <li>Fome e insegurança alimentar; a alternância de El Niño e La Niña intensifica extremos climáticos.</li>
+          <li>Mortalidade infantil, escolas fechadas e recrutamento de crianças.</li>
+          <li>Violência sexual e pressão sobre jornalistas e sociedade civil.</li>
+          <li>Mulheres e diáspora sustentam redes de cuidado e reconstrução.</li>
+        </ul>
+      </div>
+      <ol class="chain" aria-label="Ciclo da crise">
+        <li>seca</li><li>fome</li><li>deslocamento</li><li>recrutamento</li><li>violência</li>
+      </ol>
+    </section>
+
+    <!-- 10 ONU -->
+    <section class="sec sec--deep un" id="onu" aria-labelledby="onu-h">
+      <h2 id="onu-h" class="display">Missões e ajuda não substituem instituições</h2>
+      <div class="un__grid">
+        <ol class="missions">
+          <li><span class="missions__when">1992–1995</span><b>UNOSOM I e II</b><p>Intervenção internacional em meio à guerra civil.</p></li>
+          <li><span class="missions__when">2007–2022</span><b>AMISOM</b><p>Missão da União Africana, com mandato do Conselho de Segurança.</p></li>
+          <li><span class="missions__when">2022–2024</span><b>ATMIS</b><p>Missão sucessora da AMISOM e transição de segurança.</p></li>
+          <li><span class="missions__when">2024</span><b>Transição política</b><p>A UNSOM encerra; a UNTMIS assume o apoio político. A UNSOS presta apoio logístico.</p></li>
+        </ol>
+        <div class="un__side">
+          <div class="un__box">
+            <h3>Ajuda</h3>
+            <p>OCHA, PAM, ACNUR e UNICEF.</p>
+            <h3>Regras</h3>
+            <p>Resoluções do Conselho de Segurança; embargo de armas parcialmente flexibilizado em 2023.</p>
+          </div>
+          <div class="un__box un__box--crit">
+            <h3>Críticas recorrentes</h3>
+            <p>Mandatos frágeis, dependência de financiamento e dificuldade de proteger civis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 11 PAZ -->
+    <section class="sec sec--sand peace" id="paz" aria-labelledby="paz-h">
+      <h2 id="paz-h" class="display">A paz se constrói por etapas</h2>
+      <p class="lead">Não há solução única: segurança, legitimidade e oportunidades precisam avançar juntas.</p>
+      <div class="peace__path">
+        <svg class="peace__line" viewBox="0 0 1000 120" preserveAspectRatio="none" aria-hidden="true"><path d="M0,60 C100,0 150,120 250,60 S400,0 500,60 S650,120 750,60 S900,0 1000,60" /></svg>
+        <ol class="steps">
+          <li><span class="steps__n">1</span><h3>Reconciliar</h3><p>Reconhecer estados, reconciliar clãs e abrir diálogo com a Somalilândia.</p></li>
+          <li><span class="steps__n">2</span><h3>Sustentar</h3><p>Construir um Estado fiscalmente viável e combater a economia de guerra.</p></li>
+          <li><span class="steps__n">3</span><h3>Transferir</h3><p>Retirada gradual da ATMIS e assunção de responsabilidades pelas forças somalis.</p></li>
+          <li><span class="steps__n">4</span><h3>Reparar</h3><p>Justiça de transição, participação das mulheres e da sociedade civil.</p></li>
+          <li><span class="steps__n">5</span><h3>Criar futuro</h3><p>Desenvolvimento econômico e emprego para jovens.</p></li>
+        </ol>
+      </div>
+      <blockquote class="quote">Segurança duradoura depende de confiança e oportunidades, não apenas de força militar.</blockquote>
+    </section>
+
+    <!-- 12 MAPA DE TENSÕES -->
+    <section class="sec sec--deep tensions" id="tensoes" aria-labelledby="ten-h">
+      <h2 id="ten-h" class="display">O mapa de tensões</h2>
+      <p class="lead">A instabilidade nasce do encontro entre pertencimento, autoridade e interesses estratégicos. Mova o cursor ou o dedo: cada força puxa a Somália para um lado.</p>
+      <div class="tension" aria-hidden="false">
+        <svg class="tension__lines" viewBox="0 0 800 600" aria-hidden="true">
+          <path data-to="cla" /><path data-to="rel" /><path data-to="reg" /><path data-to="ext" />
+        </svg>
+        <div class="tension__core">Somália</div>
+        <div class="force" data-id="cla" style="--x:50%;--y:8%"><b>Clã</b><span>Representação e barganha</span></div>
+        <div class="force" data-id="rel" style="--x:90%;--y:50%"><b>Religião</b><span>Autoridade e insurgência</span></div>
+        <div class="force" data-id="reg" style="--x:50%;--y:92%"><b>Região</b><span>Autonomia e território</span></div>
+        <div class="force" data-id="ext" style="--x:10%;--y:50%"><b>Exterior</b><span>Portos, rotas e influência</span></div>
+      </div>
+      <p class="tensions__close">Nenhuma força explica tudo. O desafio é construir acordos que conectem as peças.</p>
+    </section>
+
+    <!-- 13–15 QUESTÕES -->
+    <section class="sec sec--sand quiz" id="questoes" aria-labelledby="quiz-h">
+      <h2 id="quiz-h" class="display">Teste o que você aprendeu</h2>
+      <p class="lead">Duas questões no estilo vestibular. Escolha uma alternativa para ver a justificativa.</p>
+
+      <article class="q" data-answer="b">
+        <h3>Uma passagem estratégica</h3>
+        <p class="q__stem">A importância geoestratégica do Chifre da África está relacionada principalmente à sua posição:</p>
+        <div class="q__opts">
+          <button data-opt="a"><i>a</i>isolada das rotas oceânicas, distante de estreitos navegáveis.</button>
+          <button data-opt="b"><i>b</i>entre o Índico e o corredor do Mar Vermelho, próximo a Bab-el-Mandeb e à rota de Suez.</button>
+          <button data-opt="c"><i>c</i>no interior do continente, junto às principais jazidas de carvão.</button>
+          <button data-opt="d"><i>d</i>na ligação terrestre direta entre o Mediterrâneo e o Atlântico.</button>
+          <button data-opt="e"><i>e</i>em uma área sem contato com portos ou rotas comerciais.</button>
+        </div>
+        <div class="q__why" hidden>
+          <p><strong>Resposta: b.</strong> A geografia é estratégica: o Chifre aproxima o Oceano Índico do Golfo de Áden, de Bab-el-Mandeb e do corredor do Mar Vermelho até Suez.</p>
+          <ol class="q__flow"><li>Índico</li><li>Golfo de Áden</li><li>Bab-el-Mandeb</li><li>Mar Vermelho e Suez</li></ol>
+        </div>
+      </article>
+
+      <article class="q" data-answer="c">
+        <h3>Por que o poder se fragmentou?</h3>
+        <p class="q__stem">A fragmentação política somali deve ser compreendida como resultado de:</p>
+        <div class="q__opts">
+          <button data-opt="a"><i>a</i>um processo exclusivamente religioso, sem relação com a história do Estado.</button>
+          <button data-opt="b"><i>b</i>uma divisão natural entre regiões, sem disputas políticas ou armadas.</button>
+          <button data-opt="c"><i>c</i>heranças coloniais e divisões políticas, colapso estatal em 1991 e disputas entre clãs e grupos armados, incluindo o Al-Shabaab.</button>
+          <button data-opt="d"><i>d</i>uma decisão recente que dissolveu todos os governos regionais.</button>
+          <button data-opt="e"><i>e</i>uma disputa por minerais metálicos que explica sozinha o conflito.</button>
+        </div>
+        <div class="q__why" hidden>
+          <p><strong>Resposta: c.</strong> A fragmentação tem raízes múltiplas: heranças coloniais, colapso do Estado em 1991, divisões entre clãs e competição armada, inclusive do Al-Shabaab, se combinam.</p>
+          <ol class="q__flow"><li>Colonialismo</li><li>Divisões</li><li>Colapso, 1991</li><li>Disputa de poder</li></ol>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="end">
+    <canvas class="end__sea" aria-hidden="true"></canvas>
+    <p class="end__line">Geografia explica a importância da região; história e relações de poder ajudam a explicar seus conflitos.</p>
+    <p class="end__credit">Baseado na apresentação “Somália: entre o Chifre da África e a disputa pelo poder”. <a href="#topo">Voltar ao início</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
